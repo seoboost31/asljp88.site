@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="ASLJP88 is a practical digital tools and productivity resource hub for modern online work.">
+<title>ASLJP88 | Digital Tools & Productivity</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#25202b;--plum:#694d7d;--lav:#eee7f5;--peach:#f8d7bd;--cream:#fffaf5;--muted:#766d78;--line:#e7dfe8}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Cabin,sans-serif;background:var(--cream);color:var(--ink);line-height:1.65}
+a{text-decoration:none;color:inherit}.wrap{width:min(1140px,92%);margin:auto}
+header{padding:24px 0;position:absolute;left:0;right:0;top:0;z-index:5}
+nav{display:flex;align-items:center;justify-content:space-between}.logo{font-size:1.3rem;font-weight:700}.logo span{color:var(--plum)}
+.links{display:flex;gap:27px;font-size:.9rem;font-weight:600;color:#625965}.links a:hover{color:var(--plum)}
+.navbtn{background:var(--ink);color:#fff;padding:11px 18px;border-radius:100px;font-size:.85rem;font-weight:700}
+.hero{padding:150px 0 95px;display:grid;grid-template-columns:1fr 1fr;gap:65px;align-items:center}
+.label{font-family:"DM Mono",monospace;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--plum);margin-bottom:18px}
+h1{font-size:clamp(3.1rem,6vw,5.3rem);line-height:.98;letter-spacing:-.065em}h1 span{display:block;color:var(--plum)}
+.lead{font-size:1.05rem;color:var(--muted);max-width:560px;margin:25px 0 30px}
+.actions{display:flex;gap:11px;flex-wrap:wrap}.btn{padding:13px 21px;border-radius:10px;font-weight:700;font-size:.9rem}.primary{background:var(--plum);color:#fff}.secondary{border:1px solid var(--line);background:#fff}
+.visual{position:relative}.visual img{width:100%;height:500px;object-fit:cover;border-radius:30px;display:block}
+.badge{position:absolute;bottom:25px;left:-22px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:17px 19px;box-shadow:0 18px 45px #25202b1f;width:205px}.badge strong{display:block;font-size:1.45rem}.badge small{color:var(--muted)}
+section{padding:95px 0}.heading{max-width:690px;margin-bottom:42px}.heading h2{font-size:clamp(2.3rem,4vw,3.6rem);letter-spacing:-.055em;line-height:1.02}.heading p{color:var(--muted);margin-top:14px}
+.tools{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.tool{background:#fff;border:1px solid var(--line);border-radius:20px;padding:28px;min-height:245px}.icon{font-family:"DM Mono";color:var(--plum);font-size:.75rem;background:var(--lav);display:inline-flex;padding:7px 10px;border-radius:7px;margin-bottom:45px}.tool h3{font-size:1.25rem;margin-bottom:8px}.tool p{color:var(--muted);font-size:.9rem}
+.banner{background:var(--plum);color:#fff;border-radius:30px;padding:60px;display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.banner h2{font-size:clamp(2.3rem,4vw,3.8rem);line-height:1.02;letter-spacing:-.055em}.banner p{color:#e5ddec;margin:18px 0}.banner img{width:100%;height:330px;object-fit:cover;border-radius:22px}
+.list{display:grid;gap:12px}.list div{border-top:1px solid #ffffff33;padding:12px 0;font-size:.9rem}.list b{color:var(--peach);margin-right:8px}
+.categories{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.category{background:var(--lav);padding:22px;border-radius:15px}.category b{display:block}.category span{font-size:.8rem;color:var(--muted)}
+.cta{background:var(--peach);border-radius:30px;text-align:center;padding:68px 25px}.cta h2{font-size:clamp(2.5rem,5vw,4.4rem);letter-spacing:-.06em;line-height:1.02}.cta p{max-width:600px;margin:17px auto 28px;color:#665d61}
+footer{padding:32px 0;border-top:1px solid var(--line);display:flex;justify-content:space-between;color:var(--muted);font-size:.8rem}
+@media(max-width:850px){.links{display:none}.hero,.banner{grid-template-columns:1fr}.tools{grid-template-columns:1fr 1fr}.categories{grid-template-columns:1fr 1fr}.badge{left:15px}.banner{padding:40px}}
+@media(max-width:560px){h1{font-size:3.15rem}.tools,.categories{grid-template-columns:1fr}.visual img{height:360px}section{padding:70px 0}.cta{padding:45px 20px}footer{display:block}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="logo" href="#">ASLJP<span>88</span></a>
+<div class="links"><a href="#tools">Tools</a><a href="#workflow">Workflow</a><a href="#topics">Topics</a></div>
+<a class="navbtn" href="#start">Explore</a>
+</nav></div></header>
+<main>
+<section class="wrap hero">
+<div>
+<div class="label">// digital tools & practical resources</div>
+<h1>Make online work <span>feel simpler.</span></h1>
+<p class="lead">ASLJP88 is a clean digital resource hub for discovering useful tools, productivity ideas, web resources, and practical ways to get more done online.</p>
+<div class="actions"><a class="btn primary" href="#tools">Explore resources →</a><a class="btn secondary" href="#workflow">How it works</a></div>
+</div>
+<div class="visual">
+<img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=85" alt="Modern workspace with laptop and digital tools">
+<div class="badge"><strong>Work smarter</strong><small>Simple resources for everyday digital tasks.</small></div>
+</div>
+</section>
+<section id="tools"><div class="wrap">
+<div class="heading"><h2>Useful resources, without the clutter.</h2><p>Find practical categories for organizing work, creating content, managing information, and improving everyday online workflows.</p></div>
+<div class="tools">
+<article class="tool"><div class="icon">01 / PLAN</div><h3>Productivity</h3><p>Ideas and resources for planning projects, organizing tasks, and keeping work moving.</p></article>
+<article class="tool"><div class="icon">02 / CREATE</div><h3>Content Tools</h3><p>Practical resources for writing, editing, research, images, and digital publishing.</p></article>
+<article class="tool"><div class="icon">03 / WEB</div><h3>Web Utilities</h3><p>Everyday online utilities for files, text, links, websites, and basic workflows.</p></article>
+<article class="tool"><div class="icon">04 / DATA</div><h3>Research</h3><p>Simple approaches to finding, organizing, comparing, and using information effectively.</p></article>
+<article class="tool"><div class="icon">05 / AI</div><h3>AI Resources</h3><p>Practical ways modern AI tools can support research, brainstorming, writing, and routine tasks.</p></article>
+<article class="tool"><div class="icon">06 / GROW</div><h3>Digital Skills</h3><p>Useful knowledge around websites, online marketing, search, and modern digital work.</p></article>
+</div></div></section>
+<section id="workflow"><div class="wrap"><div class="banner">
+<div><div class="label" style="color:var(--peach)">// a better digital routine</div><h2>Find it. Test it. Keep what works.</h2><p>The best tool is not always the most complicated one. Start with the task, find a useful resource, and build a workflow that saves time.</p>
+<div class="list"><div><b>01</b> Define the task you need to solve</div><div><b>02</b> Choose a focused resource</div><div><b>03</b> Test it on a real task</div><div><b>04</b> Keep the workflow that delivers value</div></div></div>
+<img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1000&q=85" alt="Team using digital tools during a work session">
+</div></div></section>
+<section id="topics"><div class="wrap">
+<div class="heading"><h2>Browse by interest.</h2><p>Build a personal toolkit around the kind of digital work you do most often.</p></div>
+<div class="categories">
+<div class="category"><b>Productivity</b><span>Planning & workflows</span></div><div class="category"><b>AI Tools</b><span>Automation & ideas</span></div><div class="category"><b>SEO</b><span>Search visibility</span></div><div class="category"><b>Web Tools</b><span>Online utilities</span></div><div class="category"><b>Content</b><span>Writing & publishing</span></div><div class="category"><b>Business</b><span>Digital operations</span></div><div class="category"><b>Design</b><span>Creative resources</span></div><div class="category"><b>Research</b><span>Information & analysis</span></div>
+</div></div></section>
+<section id="start"><div class="wrap"><div class="cta"><h2>Build a toolkit that works for you.</h2><p>Explore useful digital resources, try new workflows, and keep the tools that genuinely make your online work easier.</p><a class="btn primary" href="#tools">Start exploring →</a></div></div></section>
+</main>
+<footer class="wrap"><span>© 2026 ASLJP88. All rights reserved.</span><span>Digital Tools • Productivity • Resources</span></footer>
+</body>
+</html>
